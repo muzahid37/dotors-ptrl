@@ -1,3 +1,4 @@
+import Appointment from "../../Components/Pages/Appointment/Apointment/Apoinment";
 import Login from "../../Components/Sheared/Login/Login";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -16,6 +17,10 @@ const route = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>,
+      },
+      {
+        path: "/appointment",
+        element: <Appointment></Appointment>,
       },
     ],
   },
